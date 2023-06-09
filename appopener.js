@@ -8,9 +8,9 @@ if (isMobileDevice()) {
     var youtubeAppURL = 'vnd.youtube://watch?v=' + youtubeVideoID;
     var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
     window.location.href = youtubeAppURL;
-    setTimeout(function() {
-        window.location.href = fallbackURL;
-    }, 1000); // Redirect to fallback URL after 1 second
+//     setTimeout(function() {
+//         window.location.href = fallbackURL;
+//     }, 1000); // Redirect to fallback URL after 1 second
 }
 // else {
 //     // Redirect to the YouTube video on desktop devices
