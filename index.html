@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto App Opener</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            flex-direction: column;
+            background-color: black;
+            color: white;
+            height: 700px;
+            font-family: Arial, sans-serif;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90%;
+            width: 100%;
+    
+        }
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+position: sticky;
+top: 0;
+    background-color: #007bff;
+    height: 60px;
+}
+#logo{
+    width: 300px;
+    border-radius: 200px;
+    height: 300px;
+    margin: 15px 0;
+}
+#yimg,#wimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    margin: 3px 9px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    margin: 9px 0;
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.8rem;
+    display: flex;justify-content: center;align-items: center;
+}
+h1 {
+    position: sticky;
+    top: 0;
+
+    margin: 0px 9px;
+    /* text-align: center; */
+}
+#navlogo{
+    border-radius: 100px;
+    height: 50px;
+    margin: 2px 9px ;
+    width: 50px;
+}
+#button {
+            margin: 22px 0;
+            width: 20vw;
+            height: 50px;
+            padding: 12px 24px;
+            display: flex;justify-content: center;align-items: center;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #button:active{
+            background-color: #003771;
+        }
+
+        #link{
+
+            display: flex;
+       justify-content: center;align-items: center;
+            width: 100px;
+            height: 50px;
+            border-radius: 6px;
+            background-color: aqua;
+        }
+        #link:active{
+            background-color: rgb(0, 129, 129);
+        }
+        p{
+            display: flex;
+       justify-content: flex-end;align-items: center;
+         flex-direction: row;
+         position: absolute;
+         right: 0;
+         height: 30px;
+            border-radius: 6px;
+            background-color: rgb(104, 104, 104);
+            bottom: 0;
+        }
+        #bottom{
+            /* position: absolute; */
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+<img id="navlogo" src="logoimg1.jpg" alt="">
+        <h1>Abhishek Verma</h1>
+    </nav>
+    <div id="container">
+      <img id="logo" src="logoimg1.jpg" alt="">
+      <h2>Abhishek Verma</h2>
+      <h5><img id="wimg" src="wlogo2.webp" alt=""> Full Stack Web Developer</h5>
+<h5><img id="yimg" src="ylogo5.png" alt=""> YouTuber</h5>
+      <a id="button" href="https://www.youtube.com/watch?v=3hOSNssD9ko" target="_blank">Open YouTube</a>
+  </div>
+  <div id="bottom">
+    <p>Website Created by Abhishek Verma <a id="link" href="instagram://user?username=_abhi__verma_85?igshid=ZGUzMzM3NWJiOQ==" target="_blank">Hire Me</a></p>
+  </div>
+
+
+   <script src="appopener.js"></script>
+</body>
+</html>
+
