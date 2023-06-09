@@ -4,7 +4,7 @@ function isMobileDevice() {
 
 // Redirect to the YouTube app and play the video if the user is on a mobile device
 if (isMobileDevice()) {
-    var youtubeVideoID = '3hOSNssD9ko';
+    var youtubeVideoID = 'https://bGQ5TvAz4oI?feature=share';
     var youtubeAppURL = 'vnd.youtube://watch?v=' + youtubeVideoID;
     var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
     window.location.href = youtubeAppURL;
