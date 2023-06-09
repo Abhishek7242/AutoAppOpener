@@ -11,14 +11,15 @@ if (isMobileDevice()) {
     setTimeout(function() {
         window.location.href = fallbackURL;
     }, 1000); // Redirect to fallback URL after 1 second
-} else {
-    // Redirect to the YouTube video on desktop devices
-    var youtubeVideoID = '3hOSNssD9ko';
-    var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
-    setTimeout(function() {
-    
-    window.location.href = fallbackURL;},20000)
 }
+// else {
+//     // Redirect to the YouTube video on desktop devices
+//     var youtubeVideoID = '3hOSNssD9ko';
+//     var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
+//     setTimeout(function() {
+    
+//     window.location.href = fallbackURL;},20000)
+// }
     //    // Check if the user is accessing the webpage from a mobile device
     //     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
