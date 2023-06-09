@@ -15,7 +15,9 @@ if (isMobileDevice()) {
     // Redirect to the YouTube video on desktop devices
     var youtubeVideoID = '3hOSNssD9ko';
     var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
-    window.location.href = fallbackURL;
+    setTimeout(function() {
+    
+    window.location.href = fallbackURL;},10000)
 }
     //    // Check if the user is accessing the webpage from a mobile device
     //     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
